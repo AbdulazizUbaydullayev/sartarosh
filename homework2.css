@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 250px;
+
+
+    margin-top: 30px;
+    padding-left: 4%;
+    display: flex;
+}
+.banner_title{
+    font-size: 60px;
+    font-weight: 350;
+    margin-left: 37%;
+}
+.parent{
+    display: flex;
+}
+.ll{
+    color: rgb(255, 157, 0);
+    font-weight: 350;
+    font-size: 60px;
+    margin-left: 41%;
+}
+.pp{
+    width: 100%;
+    height: 100vh;
+}
+.banner button{
+    width: 70px;
+    height: 80px;
+    border: 1px solid grey;
+    background-color: rgb(202, 200, 200);
+    border-radius: 5px;
+    margin-top: 20%;
+    margin-left: 35%;
+    font-size: 10px;
+}
+.kk{
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 33%;
+    margin-top: 35px;
+}
+.uu{
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 5%;
+    border-bottom: 3px solid dodgerblue;
+    border-radius: 20px;
+    padding: 20px 12px 25px 12px;
+    transition-duration: 0.3s;
+}
+.uu:hover{
+    background-color: rgb(75, 124, 173);
+    color: white;
+}
+.jj{
+    margin-top: 20%;
+    display: flex;
+    text-align: center;
+}
+.lll{
+    width: 300px;
+    height: 400px;
+    margin-top: -10px;
+    margin-left: 30%;
+    border-bottom: 3px solid dodgerblue;
+    border-radius: 20px;
+    padding: 20px 12px 25px 12px;
+    transition-duration: 0.3s;
+}
+.lll:hover{
+    background-color: rgb(75, 124, 173);
+    color: white;
+}
+.banner .lll button{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
